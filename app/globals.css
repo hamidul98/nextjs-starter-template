@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "@heroui/react/styles";
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #11181c;
+  font-family: var(--font-inter), Arial, sans-serif;
+}
